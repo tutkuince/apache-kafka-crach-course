@@ -1,0 +1,5 @@
+// List of Topics
+docker exec -it cli-tools kafka-topics --bootstrap-server broker0:29092 --list
+
+// Information about topic partitions
+docker exec -it cli-tools kafka-topics --bootstrap-server broker0:29092 --describe --topic people.basic.java-short
