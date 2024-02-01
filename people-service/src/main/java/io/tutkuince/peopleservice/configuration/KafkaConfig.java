@@ -1,4 +1,4 @@
-package io.tutkuince.peopleservice.configurations;
+package io.tutkuince.peopleservice.configuration;
 
 import jakarta.annotation.PostConstruct;
 import org.apache.kafka.clients.admin.*;
